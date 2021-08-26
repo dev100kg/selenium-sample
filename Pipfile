@@ -5,7 +5,6 @@ verify_ssl = true
 
 [dev-packages]
 autopep8 = "*"
-v = {editable = true,version = "*"}
 flake8 = "*"
 pep8 = "*"
 pep8-naming = "*"
@@ -13,7 +12,7 @@ flake8-import-order = "*"
 
 [packages]
 selenium = "*"
-chromedriver-binary = "==77.0.3865.40"
+chromedriver-binary = "==92.0.4515.107.0"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
